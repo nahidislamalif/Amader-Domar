@@ -1,7 +1,7 @@
 .button{
     
     color: azure;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
 }
 .nav{
@@ -86,3 +86,28 @@
 .box h2,p {
     padding-left: 10px;
 } 
+.btn-2{
+    border-radius: 10px;
+}
+
+/* pic-video */
+.pic-video{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1240px;
+    margin-top: 30px;
+    padding: 10px;
+    gap: 10px;
+    
+}
+.pic-video img {
+    height: 200px;
+    width: 300px;
+}
+.pic-video div{
+    border: 2px solid black;
+}
+.pic-video h3{
+    text-align: center;
+}
