@@ -1,3 +1,7 @@
+.container{
+    max-width: 1240px;
+    margin: auto;
+}
 .button{
     
     color: azure;
@@ -87,27 +91,34 @@
     padding-left: 10px;
 } 
 .btn-2{
-    border-radius: 10px;
+    border-radius: 5px;
+    border: no;
 }
 
 /* pic-video */
-.pic-video{
+
+.details, li{
+    text-align: center;
+    list-style: none;
+    text-wrap: wrap;
+}
+
+.about-container{
     display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: 1240px;
-    margin-top: 30px;
-    padding: 10px;
-    gap: 10px;
-    
+    justify-content: center;
+    justify-items: center;
+    gap: 30px;
 }
-.pic-video img {
-    height: 200px;
+.about-container img {
+    height: 400px;
     width: 300px;
+    border-radius: 10%;
+    border:7px solid rgb(46, 0, 54);
 }
-.pic-video div{
-    border: 2px solid black;
+.about-container p{
+    max-width: 600px;
+    font-size: 23px;
 }
-.pic-video h3{
+.railway{
     text-align: center;
 }
